@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMMA 質感手搖茶飲</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Microsoft JhengHei", sans-serif; }
+        body { background-color: #fcf9f2; color: #333; line-height: 1.6; }
+        header { background-color: #5c4033; color: white; text-align: center; padding: 40px 20px; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.1rem; color: #d4a373; }
+        .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+        .section-title { text-align: center; font-size: 1.8rem; margin-bottom: 30px; color: #5c4033; }
+        .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .menu-item { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; }
+        .menu-item h3 { color: #8b5a2b; font-size: 1.4rem; margin-bottom: 10px; }
+        .menu-item p { color: #666; font-size: 0.95rem; margin-bottom: 15px; }
+        .price { font-size: 1.2rem; font-weight: bold; color: #c0392b; }
+        footer { background-color: #3e2723; color: white; text-align: center; padding: 20px; margin-top: 50px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍵 EMMA 質感手搖茶飲</h1>
+        <p>每一杯，都是療癒你的好時光</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">—— 精選人氣推薦 ——</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>🍯 蜂蜜珍珠鮮奶茶</h3>
+                <p>嚴選小農鮮奶搭配手作慢熬蜂蜜珍珠，香濃滑順。</p>
+                <div class="price">NT$ 65</div>
+            </div>
+            <div class="menu-item">
+                <h3>🍊 鮮榨香橙綠茶</h3>
+                <p>新鮮柳橙切片與清香綠茶完美結合，酸甜解膩。</p>
+                <div class="price">NT$ 60</div>
+            </div>
+            <div class="menu-item">
+                <h3>🧀 芝士奶蓋烏龍</h3>
+                <p>濃郁鹹甜奶蓋覆蓋在炭焙烏龍茶上，多層次口感。</p>
+                <div class="price">NT$ 70</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EMMA Handcrafted Tea. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
